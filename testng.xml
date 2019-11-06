@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" parallel="none">
+  <test name="Test1">
+    <classes>
+      <class name="com.w2a.API_Batch4_Rest_AFramework.testcases.SampleTestCase"/>
+      <class name="com.w2a.API_Batch4_Rest_AFramework.setUp.TestSetup"/>
+      <class name="com.w2a.API_Batch4_Rest_AFramework.rough.Rough"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test2">
+    <classes>
+      <class name="com.w2a.API_Batch4_Rest_AFramework.testcases.SampleTestCase"/>
+      <class name="com.w2a.API_Batch4_Rest_AFramework.setUp.TestSetup"/>
+      <class name="com.w2a.API_Batch4_Rest_AFramework.rough.Rough"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
